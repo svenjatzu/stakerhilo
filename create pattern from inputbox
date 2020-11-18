@@ -1,0 +1,21 @@
+hey there im trying to create an inputbox from where shortcodes gonna be entered to run different scripts by the order from the inputbox.
+exp: vlaues to enter in the inputbox: n=north s=south e=east w=west
+on entering in the inputbox eg: n n e n w s s 
+the scripts should be executed in the order 
+function(north)
+next
+function(north)
+next
+function(east)
+next
+function(north)
+next
+function(west)
+next
+function(south)
+next
+function(south)
+
+in this way id like to tell my ship to sail to north then north again than east and so on.
+
+i cant find a sollution for that, please help me with it
